@@ -10,5 +10,5 @@ with Raw Node</a></div><br>
 </div>
 <h3 align="left">References: :paperclips:</h3>
 <ul>
-<li><a href="https://www.youtube.com/c/LearnwithSumit"></a>Learn with Sumit - LWS - Bangladesh</li>
+<li></li>
 </ul>
