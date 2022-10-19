@@ -5,7 +5,7 @@ with Raw Node</a></div><br>
 </div>
 
 <div>
-<p align="left">This is my practice session with Node to keep myself on track with it. Here won't use any library like Express. To idea is to utilize and understand the core concept of Node.</p>
+<p align="left">This is my practice session with Node to keep myself on track with it. Here won't use any library like Express. The idea is to utilize and understand the core concept of Node and to create an API.</p>
 
 </div>
 <h3 align="left">References: :paperclips:</h3>
