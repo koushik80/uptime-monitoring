@@ -66,7 +66,7 @@ handler.handleReqRes = (req, res) => {
         res.end(payloadString);
     });
         // response handle
-        res.end('Hello World!');
+        //res.end('Hello World!');
     });
 };
 
