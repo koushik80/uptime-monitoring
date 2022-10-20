@@ -7,8 +7,9 @@
  */
 
 // Dependencies
+const dotenv = require("dotenv");
 
-
+dotenv.config();
 
 // module scaffolding
 
@@ -18,12 +19,24 @@ environments.staging = {
     port: 3000,
     envName: 'staging',
     secretKey: 'hsjdhsdhsjdhjshdjshd',
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+18589144104',
+        accountSid: process.env.Account_SID,
+        authToken: process.env.Auth_Token,
+    },
 };
 
 environments.production = {
     port: 4000,
     envName: 'production',
     secretKey: 'djkdjskdjksdjksjdskjd',
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+18589144104',
+        accountSid: process.env.Account_SID,
+        authToken: process.env.Auth_Token,
+    },
 };
 
 // determine which environment was passed

@@ -43,7 +43,7 @@ handler._users.post = (requestProperties, callback) => {
 
     const phone =
         typeof requestProperties.body.phone === 'string' &&
-        requestProperties.body.phone.trim().length === 11
+        requestProperties.body.phone.trim().length === 10
             ? requestProperties.body.phone
             : false;
 
@@ -97,7 +97,7 @@ handler._users.get = (requestProperties, callback) => {
     // check the phone number if valid
     const phone =
         typeof requestProperties.queryStringObject.phone === 'string' &&
-        requestProperties.queryStringObject.phone.trim().length === 11
+        requestProperties.queryStringObject.phone.trim().length === 10
             ? requestProperties.queryStringObject.phone
             : false;
     if (phone) {
@@ -138,7 +138,7 @@ handler._users.put = (requestProperties, callback) => {
     // check the phone number if valid
     const phone =
         typeof requestProperties.body.phone === 'string' &&
-        requestProperties.body.phone.trim().length === 11
+        requestProperties.body.phone.trim().length === 10
             ? requestProperties.body.phone
             : false;
 
@@ -225,7 +225,7 @@ handler._users.delete = (requestProperties, callback) => {
     // check the phone number if valid
     const phone =
         typeof requestProperties.queryStringObject.phone === 'string' &&
-        requestProperties.queryStringObject.phone.trim().length === 11
+        requestProperties.queryStringObject.phone.trim().length === 10
             ? requestProperties.queryStringObject.phone
             : false;
 
